@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.drawerapp.Fragments.fragment_about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnvk"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="VK"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="106dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btntg"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Telegram"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginEnd="43dp"
+        android:layout_alignTop="@+id/btnvk"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Разработчик"
+        android:textSize="25sp"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пугачев Александр"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Руководитель"
+        android:textSize="25sp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Приходько Максим"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
