@@ -189,5 +189,5 @@ My app can be downloaded from [here](https://github.com/apugachev/MyUniver/blob/
 
 ## Screenshots
 
-![pic](D:\pic.PNG)
+![Screenshots](https://i.gyazo.com/544c0eacbb5dd1983789ebd0f047cb6a.png)
 
