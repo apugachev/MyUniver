@@ -4,7 +4,7 @@ Through my university program, I have created an Android app working with [My Un
 
 ## Idea
 
-The idea of my app is the following. Each student of the group in the university or each pupil of the class in the school shares with his group or class mates where would he go the next day. This information gathers on the server and each student can see where would all his group or class mates go the next day.
+The idea of my app is the following. Each student of the group in the university  shares with his group mates where would he go the next day. This information is stored on the server and each student can see where would all his group mates go the next day.
 
 ## Structure of any Android app
 
@@ -26,9 +26,9 @@ In the **About** section there is `fragment_about` `Fragment`  with the informat
 
 For the server requests there were used methods of [OkHttp client](http://square.github.io/okhttp/) for Android and Java.
 
-### Writing to the server
+### Saving to the server
 
-Writing to the server is performed as follows. There is formed a string with the data which must be written. 
+Saving to the server is performed as follows. A string with the necessary information is created. Then this string is saved to the server. 
 
 For example:
 
